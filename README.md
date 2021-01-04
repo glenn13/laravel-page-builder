@@ -51,7 +51,7 @@ url: https://github.com/HansSchouten/Laravel-Pagebuilder/issues/8
 
 ---------------------------------------------
 
-Add cdn for jquery in generator-view.php
+Add cdn for jquery in ```generator-view.php```
 ```SCRIPT
 <script
   src="https://code.jquery.com/jquery-3.5.1.min.js"
@@ -60,7 +60,7 @@ Add cdn for jquery in generator-view.php
 ```
 ---------------------------------------------
 
-To set an image or a category you can create a ```CONFIG config.php``` file in the folder of a block and create an array with ```DISPLAY "category" => "Your name here" ```
+To set an image or a category you can create a ```config.php``` file in the folder of a block and create an array with ```"category" => "Your name here" ```
 ```CONTENT
 <?php
 return [
@@ -70,7 +70,7 @@ return [
 
 ---------------------------------------------
 
-create controller ```CONTROLLER PageBuilderController.php ```
+create controller ```PageBuilderController.php ```
 
 ```CONTENT
 <?php
