@@ -1,5 +1,12 @@
 READ ME
-change the component block icons
+
+INSTRUCTION
+
+for fresh installation, go to ```https://github.com/HansSchouten/Laravel-Pagebuilder```
+
+---------------------------------------------
+
+HOW TO CHANGE THE COMPOMENT BLOCK ICONS
 
 page builder change icon
 file: 
