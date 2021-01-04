@@ -6,6 +6,25 @@ for fresh installation, go to ```https://github.com/HansSchouten/Laravel-Pagebui
 
 ---------------------------------------------
 
+FOR CONFIGURATION SETUP: 
+
+Instruction
+
+Copy the ```.env.example``` file and rename it to ```.env``` 
+
+Edit the ```.env``` configuration
+
+Set ```APP_URL``` to ```APP_URL=http://localhost:8000```
+
+Set ```DB_DATABASE``` to ```DB_DATABASE=pagebuilder_db```
+
+Run ```composer update```
+
+Run ```php artisan migrate```
+
+
+---------------------------------------------
+
 HOW TO CHANGE THE COMPOMENT BLOCK ICONS
 
 page builder change icon
