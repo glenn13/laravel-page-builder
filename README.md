@@ -2,12 +2,13 @@ READ ME
 change the component block icons
 
 page builder change icon
-file: ```FILE vendor\hansschouten\phpagebuilder\src\Modules\GrapesJS\Block\BlockAdapter.php```
+file: ```FILE vendor\hansschouten\phpagebuilder\src\Modules\GrapesJS\Block\BlockAdapter.php ```
+
 method: ```METHOD getBlockManagerArray()```
 changes:
 change value of ```Variable $iconClass ```
 
-```CHANGETO $iconClass = $this->getCorrectClassIcon ($data['label']);```
+```CHANGETO $iconClass = $this->getCorrectClassIcon ($data['label']); ```
 
 ```ADD_FUNCTION
     public function getCorrectClassIcon ($iconLabel) 
