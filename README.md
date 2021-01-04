@@ -25,6 +25,16 @@ Run ```php artisan migrate```
 
 ---------------------------------------------
 
+Open the browser and go to ```http://localhost:8000/admin```
+
+Use this credential
+```
+username: admin
+password: 123123
+```
+
+---------------------------------------------
+
 HOW TO CHANGE THE COMPOMENT BLOCK ICONS
 
 page builder change icon
