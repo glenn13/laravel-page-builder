@@ -8,6 +8,7 @@ vendor\hansschouten\phpagebuilder\src\Modules\GrapesJS\Block\BlockAdapter.php
 ```
 
 method: ```getBlockManagerArray()```
+
 changes:
 change value of ```Variable $iconClass ```
 
@@ -70,7 +71,7 @@ return [
 
 ---------------------------------------------
 
-create controller ```PageBuilderController.php ```
+Create controller ```PageBuilderController.php ```
 
 ```CONTENT
 <?php
@@ -128,7 +129,7 @@ class PageBuilderController extends Controller
 
 ---------------------------------------------
 
-create controller ```CONTROLLER WebsiteController.php ```
+Create controller ```CONTROLLER WebsiteController.php ```
 ```CONTENT
 <?php
 
